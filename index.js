@@ -19,6 +19,7 @@ function currentLine(katzDeliLine){
     return retString
   }
   else{
+    retString="The line is currently: "
     for (var i=0; i<katzDeliLine.length-1; i++){
       retString=retString+`${i+1}. ${katzDeliLine[i]}, `
     }
