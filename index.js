@@ -19,7 +19,7 @@ function currentLine(katzDeliLine){
     return retString
   }
   else{
-    for (var i=0; i<katzDeliLine.length-2; i++){
+    for (var i=0; i<katzDeliLine.length-1; i++){
       retString=retString+`${i+1}. ${katzDeliLine[i]}, `
     }
     retString=retString+`${katzDeliLine.length}. ${katzDeliLine[katzDeliLine.length-1]}`
